@@ -1,0 +1,4 @@
+prompt_type,mean_score,mean_response_length,count
+open_ended,7.0,564.0,5
+prioritisation,8.6,520.2,5
+strategy_critique,8.6,435.2,5

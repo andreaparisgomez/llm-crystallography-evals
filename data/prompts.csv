@@ -1,0 +1,61 @@
+module,prompt_type,prompt_id,prompt_text
+peak_broadening,open_ended,PB_01,"A Rietveld refinement of PXRD data shows:
+- Peak broadening that increases with 2θ
+- Good agreement in peak positions
+- Instrumental broadening has been accounted for
+
+What are the most likely causes of this behaviour?"
+peak_broadening,prioritisation,PB_02,"A PXRD refinement shows peak broadening increasing with 2θ. Multiple factors may contribute to peak broadening.
+
+Which is the most likely dominant cause in this case, and why?"
+peak_broadening,strategy_critique,PB_03,"A PXRD refinement shows peak broadening increasing with 2θ. A researcher decides to begin by refining crystallite size and profile parameters to improve the fit.
+
+Is this an appropriate approach? Why or why not?"
+intensity_anomaly,open_ended,IA_01,"A series of isostructural, same-phase materials shows broadly similar PXRD patterns. One sample displays a single unusually sharp and significantly more intense reflection at ~30° 2θ, while the rest of the pattern remains consistent with the series.
+
+What are the most likely causes of this anomaly?"
+intensity_anomaly,prioritisation,IA_02,"A series of isostructural, same-phase materials shows broadly similar PXRD patterns. One sample displays a single unusually sharp and significantly more intense reflection at ~30° 2θ, while the rest of the pattern remains consistent with the series.
+
+Several explanations are possible, including preferred orientation, a minor impurity phase, or differences in local ordering.
+
+Which is the most likely cause in this case, and why?"
+intensity_anomaly,strategy_critique,IA_03,"A series of isostructural, same-phase materials shows broadly similar PXRD patterns. One sample displays a single unusually sharp and significantly more intense reflection at ~30° 2θ, while the rest of the pattern remains consistent with the series.
+
+A researcher concludes that this sample has formed a new crystalline phase and proceeds to model it as a multiphase system.
+
+Is this a reasonable interpretation? Why or why not?"
+non_convergence,open_ended,NC_01,"A Rietveld refinement fails to converge despite a reasonable starting model and acceptable data quality.
+
+What are the most likely causes of this behaviour?"
+non_convergence,prioritisation,NC_02,"A Rietveld refinement fails to converge. Possible causes include an incorrect structural model, parameter correlations, or over-parameterisation.
+
+Which is the most likely cause in this case, and why?"
+non_convergence,strategy_critique,NC_03,"A Rietveld refinement fails to converge. A researcher decides to focus first on refining atomic positions and thermal parameters to improve the fit.
+
+Is this an appropriate strategy? Why or why not?"
+peak_positions,open_ended,PP_01,"A PXRD pattern shows that peak positions are generally close to the calculated pattern, but small systematic deviations remain, particularly at higher 2θ.
+
+What could explain these discrepancies?"
+peak_positions,prioritisation,PP_02,"A PXRD pattern shows that peak positions are generally close to the calculated pattern, but small systematic deviations remain, particularly at higher 2θ.
+
+Possible explanations include lattice parameter errors, sample displacement (zero shift), or limitations in the structural model.
+
+Which is the most likely cause in this case, and why?"
+peak_positions,strategy_critique,PP_03,"A PXRD pattern shows that peak positions are generally close to the calculated pattern, but small systematic deviations remain, particularly at higher 2θ.
+
+A researcher decides to improve the fit by refining lattice parameters and atomic positions simultaneously.
+
+Is this an appropriate strategy? Why or why not?"
+doping_shared_sites,open_ended,DS_01,"A Rietveld refinement of a doped material with partial occupancy on a crystallographic site shows good peak positions and reasonable peak shapes, but systematic mismatches remain in peak intensities across the pattern.
+
+What are the most likely causes of these discrepancies?"
+doping_shared_sites,prioritisation,DS_02,"A Rietveld refinement of a doped material with partial occupancy on a crystallographic site shows good peak positions and reasonable peak shapes, but systematic mismatches remain in peak intensities across the pattern.
+
+Possible explanations include incorrect occupancy values, local ordering not captured by the model, or preferred orientation effects.
+
+Which is the most likely cause in this case, and why?"
+doping_shared_sites,strategy_critique,DS_03,"A Rietveld refinement of a doped material with partial occupancy on a crystallographic site shows good peak positions and reasonable peak shapes, but systematic mismatches remain in peak intensities across the pattern.
+
+A researcher decides to improve the fit by refining occupancy and thermal parameters simultaneously.
+
+Is this an appropriate strategy? Why or why not?"
