@@ -158,5 +158,6 @@ It combines:
 
 ## Author
 
-Andrea Paris 
+Andrea Paris
+
 Chemistry PhD | Data Engineering & AI Evaluation
