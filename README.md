@@ -16,7 +16,9 @@ This project evaluates how well an LLM (Claude) performs on **domain-specific cr
 - peak position errors  
 - doping and shared-site modelling  
 
-Rather than relying on generic benchmarks, this project uses **expert-designed prompts and rubrics** to assess **physical reasoning quality**, not just correctness.
+Rather than relying on generic benchmarks, this project uses **expert-designed prompts and rubrics** to assess **physical reasoning quality**, not just correctness. 
+
+This project is designed as a **hard-to-game evaluation framework**, probing where an LLM can reason correctly and where it fails in domain-specific scientific tasks.
 
 ---
 
